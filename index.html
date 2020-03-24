@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Eligibility Checker</legend>
+      <form id="sign-up">
+        <input type="text" placeholder="Your first name" id="fname" />
+        <input type="text" placeholder="Your last name" id="lname" />
+
+        <br />
+
+        <input type="number" placeholder="Your age" id="age" />
+        <select id="fruit">
+          <option value="mango">Mango</option>
+          <option value="pineapple">Pineapple</option>
+          <option value="guava">Guava</option>
+          <option value="strawbery">Strawbery</option>
+          <option value="apple">Apple</option>
+          <option value="berry">Berry</option>
+        </select>
+
+        <br />
+
+        <label>
+          <input type="checkbox" id="checkbox" />
+          I agree to obey your orders without question
+        </label>
+
+        <br />
+
+        <input type="submit" value="Surrender" />
+      </form>
+    </fieldset>
+
+    <section id="form-data"></section>
+    <script src="app.js"></script>
+  </body>
+</html>
